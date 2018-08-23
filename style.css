@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+}
+#header{
+    width: 100%;
+    height: 6vh;
+    background:#707070;
+    top: 0;
+    margin: 0 auto;
+}
+
+
+.nav-menu{
+    float: right;
+    padding-right: 20px;
+    
+}
+
+.nav-menu li{
+    text-align: right;
+    display: inline;
+    list-style: none;
+}
+
+a { 
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    float: left;
+    width: 33.33%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px auto;
+}
+
+.section{
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+.logo h1{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    display: inline;
+    margin: 0 auto;
+    padding: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+.header-section{
+    background: #000000;
+    height: 35vh;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h2{
+    color: yellow;
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 100px 0;
+    font-size: 50px;
+    font-family: 'Ropa Sans', sans-serif;
+
+
+}
+
+
+
+p {
+    font-size: 12px;
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#footText{
+    color: #f2f7f7;
+    font-size: 12px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    height: 30vh;
+    margin: 0 auto;
+    background-color: #a4ffd7;
+    border-radius: 8px;
+}
+
+.section-container{
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.rectangle{
+    float: left;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30vh;
+    margin: 0 auto;
+    background-color: #ffc36c;
+
+}
+
+.section-container p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    width: 80vw;
+    display: table;
+}
+
+.section-container img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+footer{
+    width: 100%;
+    height: 12vh;
+    background-color: #3a3a56;
+
+}
+
+
